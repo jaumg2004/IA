@@ -39,9 +39,6 @@ class LinearRegression:
         valor = np.array(valor)
         return self.__intercept + (self.__inclination * valor)
 
-    def previsao(self, valor):
-        return self.transform(valor)
-
 
 x = np.array([1, 2, 3, 4, 5])
 y = np.array([2, 4, 5, 8, 10])
